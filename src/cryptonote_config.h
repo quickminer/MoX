@@ -40,7 +40,7 @@
 #define CRYPTONOTE_GETBLOCKTEMPLATE_MAX_BLOCK_SIZE	196608 //size of block (bytes) that is the maximum that miners will produce
 #define CRYPTONOTE_MAX_TX_SIZE                          1000000000
 #define CRYPTONOTE_PUBLIC_ADDRESS_TEXTBLOB_VER          0
-#define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            18
+#define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            60
 #define CURRENT_TRANSACTION_VERSION                     2
 #define CURRENT_BLOCK_MAJOR_VERSION                     7
 #define CURRENT_BLOCK_MINOR_VERSION                     7
@@ -62,9 +62,9 @@
 #define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V5    300000 //size of block (bytes) after which reward for block calculated using block size - second change, from v5
 #define CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE          600
 
-#define CRYPTONOTE_DISPLAY_DECIMAL_POINT 11
+#define CRYPTONOTE_DISPLAY_DECIMAL_POINT 12
 // COIN - number of smallest units in one coin
-#define COIN ((uint64_t)100000000000)
+#define COIN ((uint64_t)1000000000000)
 
 #define FEE_PER_KB_OLD                                  ((uint64_t)10000000000) // pow(10, 10)
 #define FEE_PER_KB                                      ((uint64_t)2000000000) // 2 * pow(10, 9)
@@ -168,9 +168,9 @@ uint16_t const P2P_DEFAULT_PORT  =  6246;
 uint16_t const RPC_DEFAULT_PORT =  62469;
 uint16_t const ZMQ_RPC_DEFAULT_PORT =  13371;
   boost::uuids::uuid const NETWORK_ID = { {
-0xA1, 0xA1, 0x77, 0x77, 0x61, 0x04, 0x41, 0x61, 0x17, 0x31, 0xA1, 0x82, 0x16, 0xA1, 0xA1, 0xA1
+0xA1, 0xA1, 0x77, 0x16, 0x31, 0x31, 0x41, 0x61, 0x17, 0x31, 0xA1, 0x82, 0x16, 0xA1, 0xA1, 0xA1
     } }; // Bender's nightmare
-std::string const GENESIS_TX = "011201ff0001ffffffffff1f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b8106a55691d4ca869bcfc8a9814c2aa6e5843fada2c0201abbf74b0513d9a82";
+std::string const GENESIS_TX = "013c01ff0001ffffffffff1f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b8106a55691d4ca869bcfc8a9814c2aa6e5843fada2c0201abbf74b0513d9a82";
   uint32_t const GENESIS_NONCE = 70;
 
   namespace testnet
