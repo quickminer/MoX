@@ -5,6 +5,8 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Resources
 
+Discord :- https://discord.gg/QVbk9Eq
+
 ## Vulnerability response
 
 - TODO
