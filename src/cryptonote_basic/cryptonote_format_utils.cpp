@@ -731,7 +731,7 @@ namespace cryptonote
       decimal_point = default_decimal_point;
     switch (std::atomic_load(&default_decimal_point))
     {
-      case 11:
+      case 12:
         return "mox";
       case 9:
         return "millinero";
