@@ -1,5 +1,7 @@
 # MoX
 
+Copyright (c) 2018 The MoX Project.
+
 Copyright (c) 2017-2018 The Masari Project.
 
 Copyright (c) 2014-2018 The Monero Project.
@@ -9,9 +11,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 ## Development resources
 
 - Web: [getmox.org](https://getmox.org)
-- Forum: [forum.getmox.org](https://forum.getmox.org)
 - GitHub: [https://github.com/mox-project/mox](https://github.com/mox-project/mox)
-- IRC: [#mox on Freenode](http://webchat.freenode.net/?randomnick=1&channels=%23mox&prompt=1&uio=d4)
 
 ## Vulnerability response
 
@@ -43,18 +43,6 @@ As with many development projects, the repository on Github is considered to be 
 
 **Anyone is welcome to contribute to MoX's codebase!** If you have a fix or code change, feel free to submit it as a pull request directly to the "master" branch. In cases where the change is relatively small or does not affect other parts of the codebase it may be merged in immediately by any one of the collaborators. On the other hand, if the change is particularly large or complex, it is expected that it will be discussed at length either well in advance of the pull request being submitted, or even directly on the pull request.
 
-## Supporting the project
-
-MoX is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially.
-
-The MoX donation address is: `5nYWvcvNThsLaMmrsfpRLBRou1RuGtLabUwYH7v6b88bem2J4aUwsoF33FbJuqMDgQjpDRTSpLCZu3dXpqXicE2uSWS4LUP` (viewkey: `99e21e00cce073c126e9aed800c9e2e82518534b3924b035a29436ff4f75bc0c`)
-
-The Monero donation address is: `4A57eA3so6bEE8FUcaN1KtMXD3sxjjbvcKD3MF1pUgRi5PNHTpB7sYN2DmJv3EXxtZCWeG88tsVLzdfZJcmUFm52SbrfJWr` (viewkey: `c7a7c141581ac4436ba8bfb81dd67234720c565c696ef154a25c7e7314ce4b08`)
-
-The Bitcoin donation address is: `1J1he4qtTuNpCxyEBozkeKfDpoeYxfE3rj`
-
-There are a few mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=2159114.740). Others can be found on [MoXPools](http://moxpools.org/) and [CryptoIsMe](https://cryptoisme.com/coin/mox).
-
 ## License
 
 See [LICENSE](LICENSE).
@@ -62,24 +50,6 @@ See [LICENSE](LICENSE).
 ## Contributing
 
 If you want to help out, see [CONTRIBUTING](CONTRIBUTING.md) for a set of guidelines.
-
-## Scheduled software upgrades
-
-MoX uses a fixed-schedule software upgrade (hard fork) mechanism to implement new features. This means that users of MoX (end users and service providers) should run current versions and upgrade their software on a regular schedule. Software upgrades occur during the months of April and October. The required software for these upgrades will be available prior to the scheduled date. Please check the repository prior to this date for the proper MoX software version. Below is the historical schedule and the projected schedule for the next upgrade.
-Dates are provided in the format YYYY-MM-DD. 
-
-| Fork Date         | Consensus version | Minimum MoX Version | Recommended MoX Version | Details                                                             |
-| ----------------- | ----------------- | ---------------------- | -------------------------- | --------------------------------------------------------------------|
-| 2017-10-05        | v2                | 0.1.2.0                | 0.1.2.0                    | Difficulty adjustment algorithm adjusted                            |
-| 2017-11-29        | v3                | 0.1.3.0                | 0.1.3.1                    | Difficulty adjustment algorithm updated to WWHM                     |
-| 2017-12-06        | v4                | 0.1.4.0                | 0.1.4.0                    | Difficulty adjustment tweaks                                        |
-| 2018-05-01        | v5                | 0.2.0.0                | 0.2.0.2                    | Upstream track of v0.12.0 with Multisig, Subaddresses, CN variant 1 |
-
-X's indicate that these details have not been determined as of commit date.
-
-## Release staging schedule and protocol
-
-Approximately three months prior to a scheduled software upgrade, a branch from Master will be created with the new release version tag. Pull requests that address bugs should then be made to both Master and the new release branch. Pull requests that require extensive review and testing (generally, optimizations and new features) should *not* be made to the release branch. 
 
 ## Compiling MoX from source
 
