@@ -91,7 +91,7 @@ static const struct {
   time_t time;
 } mainnet_hard_forks[] = {
   { 1, 1, 0, 1504387246 },
-  { 7, 15, 0, 1529361270}
+  { 7, 5, 0, 1529361270}
 };
 
 static const struct {
