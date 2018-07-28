@@ -8,7 +8,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Web: [getmox.org](https://getmox.org)
+- Web: [getmox.org](http://getmox.org)
 - Forum: [forum.getmox.org](https://forum.getmox.org)
 - GitHub: [https://github.com/mox-project/mox](https://github.com/mox-project/mox)
 - IRC: [#mox on Freenode](http://webchat.freenode.net/?randomnick=1&channels=%23mox&prompt=1&uio=d4)
