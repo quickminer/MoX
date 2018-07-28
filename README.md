@@ -10,7 +10,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Development resources
 
-- Web: [getmox.org](https://getmox.org)
+- Web: [getmox.org](http://getmox.org)
 - GitHub: [https://github.com/mox-project/mox](https://github.com/mox-project/mox)
 
 ## Vulnerability response
