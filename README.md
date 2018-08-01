@@ -13,10 +13,6 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 - Web: [getmox.org](http://getmox.org)
 - GitHub: [https://github.com/mox-project/mox](https://github.com/mox-project/mox)
 
-## Vulnerability response
-
-- Our [Vulnerability Response Process](https://github.com/mox-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
-
 ## Coverage
 
 | Type      | Status |
@@ -46,10 +42,6 @@ As with many development projects, the repository on Github is considered to be 
 ## License
 
 See [LICENSE](LICENSE).
-
-## Contributing
-
-If you want to help out, see [CONTRIBUTING](CONTRIBUTING.md) for a set of guidelines.
 
 ## Compiling MoX from source
 
@@ -300,10 +292,6 @@ config](utils/conf/moxd.conf).
 
 If you're on Mac, you may need to add the `--max-concurrency 1` option to
 mox-wallet-cli, and possibly moxd, if you get crashes refreshing.
-
-## Internationalization
-
-See [README.i18n.md](README.i18n.md).
 
 ## Using Tor
 
